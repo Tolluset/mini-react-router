@@ -1,0 +1,33 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: inherit;
+  font-size: 100%;
+}
+
+
+button {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background: inherit;
+  cursor: pointer;
+  padding: 0;
+  overflow: visible;
+}
