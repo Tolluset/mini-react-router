@@ -4,6 +4,7 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/mini-react-router/",
   plugins: [react()],
   resolve: {
     alias: {
