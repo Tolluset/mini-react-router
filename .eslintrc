@@ -14,6 +14,9 @@
     "plugin:react/jsx-runtime",
     "prettier",
   ],
+  "rules": {
+    "allowExpressions": true,
+  },
   "parserOptions": {
     "project": "./tsconfig.json"
   },
