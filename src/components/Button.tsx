@@ -6,7 +6,7 @@ function Button(props: Props) {
   const { children, ...rest } = props;
 
   return (
-    <button className="bg-black text-white p-2 rounded" {...rest}>
+    <button type="button" className="bg-black text-white p-2 rounded" {...rest}>
       {children}
     </button>
   );

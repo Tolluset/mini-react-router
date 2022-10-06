@@ -15,7 +15,8 @@
     "prettier",
   ],
   "rules": {
-    "allowExpressions": true,
+    "no-restricted-globals": "off",
+    "react/jsx-props-no-spreading": "off"
   },
   "parserOptions": {
     "project": "./tsconfig.json"
